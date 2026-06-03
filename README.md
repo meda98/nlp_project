@@ -38,6 +38,7 @@ https://ai.stanford.edu/~amaas/data/sentiment/
 
 The project structure should look similar to:
 
+```console
 project/
 │
 ├── aclImdb/
@@ -52,6 +53,7 @@ project/
 ├── evaluation.py
 ├── visualization.py
 └── remarkably_bright_creatures_reviews.xlsx
+```
 
 ## Additional Files
 ### nltk_data

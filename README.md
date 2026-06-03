@@ -2,7 +2,7 @@
 This repository contains a Natural Language Processing (NLP) project that performs sentiment analysis on movie reviews using classical machine learning techniques.
 
 ## Project Overview
-The project uses the IMDb Large Movie Review Dataset to train and evaluate sentiment classification models. The workflow includes:
+The project uses the *IMDb Large Movie Review Dataset* to train and evaluate sentiment classification models. The workflow includes:
 - Data loading and preprocessing
 - Text cleaning and normalization
 - TF-IDF feature extraction (unigrams and bigrams)
@@ -23,7 +23,7 @@ Evaluation metrics include:
 - Confusion Matrix
 
 ## Dataset Setup
-This project requires the Large Movie Review Dataset (IMDb) by Maas et al.
+This project requires the *Large Movie Review Dataset (IMDb)* by Maas et al.
 
 Download the dataset from:
 
@@ -57,10 +57,10 @@ project/
 
 ## Additional Files
 ### nltk_data
-The repository includes a local nltk_data directory containing the required NLTK resources used during preprocessing.
+The repository includes a local *nltk_data* directory containing the required NLTK resources used during preprocessing.
 
 ### Remarkably Bright Creatures Reviews
-The file remarkably_bright_creatures_reviews.xlsx contains review data used for sentiment prediction with the final trained model.
+The file *remarkably_bright_creatures_reviews.xlsx* contains review data used for sentiment prediction with the final trained model.
 
 ## Running the Project
 ### Train and Evaluate Models
@@ -75,7 +75,7 @@ This script trains all models, evaluates them on different dataset sizes, and ge
 python movie_sentiment.py
 ```
 
-This script trains the final Logistic Regression model and predicts the sentiment of reviews stored in remarkably_bright_creatures_reviews.xlsx.
+This script trains the final Logistic Regression model and predicts the sentiment of reviews stored in *remarkably_bright_creatures_reviews.xlsx*.
 
 ## Technologies
 - Python
